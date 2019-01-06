@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "*";
+const prefix = "Y";
 
 // ========================================== [ CONSTRUCTERS ] =========================================
 
@@ -9,7 +9,7 @@ client.on("ready", async() => {
 console.log(`Back Online In ${client.guilds.size} Servers!`);
 console.log(`https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8\nInvite Me To Your Server!`);
     setTimeout(() => {
-        client.user.setActivity(`${prefix}help | V 1.1`, {type: "WATCHING"});
+        client.user.setActivity(`${prefix}help | .`, {type: "WATCHING"});
     }, 3000);
 });
 
@@ -173,4 +173,4 @@ client.on("message", async message => {
 // CODES - COPYRIGHT
 
 
-client.login("NTI4OTY0NTM2NDMxMDE3OTg5.Dwp8oQ.4ipDewYfWw_cnGNJO2Qv-FAasRc");
+client.login("NTI3ODQ2MjEzMTY5NzA5MDc4.DxO_Fg.iPV8gRIPLeU4voLtEiyta3nSC3A");
